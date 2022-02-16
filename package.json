@@ -1,0 +1,12 @@
+{
+  "name": "february-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pricingTool.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "author": "Dan Thompson",
+  "license": "ISC",
+  "type": "module"
+}
