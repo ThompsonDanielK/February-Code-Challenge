@@ -74,28 +74,28 @@ exports.addProductPricesAndDiscounts = (uniqueGroupArray) => {
 
   let totalPrice = 0;
 
-  uniqueGroupArray.forEach(productGroup => {
+  uniqueGroupArray.forEach(uniqueGroup => {
 
-    switch (productGroup) {
+    switch (uniqueGroup) {
 
       case 4:
-        totalPrice += ((productGroup * pricePerItem) * discountArray[1]);
+        totalPrice += ((uniqueGroup * pricePerItem) * discountArray[1]);
         break;
       
       case 3:
-        totalPrice += ((productGroup * pricePerItem) * discountArray[2]);
+        totalPrice += ((uniqueGroup * pricePerItem) * discountArray[2]);
         break;
 
       case 2:
-        totalPrice += ((productGroup * pricePerItem) * discountArray[3]);
+        totalPrice += ((uniqueGroup * pricePerItem) * discountArray[3]);
         break;
 
       case 1:
-        totalPrice += (productGroup * pricePerItem)
+        totalPrice += (uniqueGroup * pricePerItem);
         break;
 
       default:
-        totalPrice += ((productGroup * pricePerItem) * discountArray[0]);
+        totalPrice += ((uniqueGroup * pricePerItem) * discountArray[0]);
         break;
     };
   });
