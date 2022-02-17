@@ -27,11 +27,11 @@ products), giving as big a discount as possible.
 It needs to be written using JavaScript
 
 Your code should accept an array as input, and should return a number, as follow:
-
+```js
 function computeTotalPrice(productsArray) {
   // code to be executed
 }
-
+```
 For example, given the following array input for parameter products:
 ['A','A','B','B','C','C','D','E']
 
