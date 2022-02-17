@@ -35,11 +35,11 @@ function computeTotalPrice(productsArray) {
 For example, given the following array input for parameter products:
 ['A','A','B','B','C','C','D','E']
 
-This would represent a shopping cart containing:
-2 quantity of product A
-2 quantity of product B
-2 quantity of product C
-1 quantity of product D
+This would represent a shopping cart containing:  
+2 quantity of product A\
+2 quantity of product B\
+2 quantity of product C\
+1 quantity of product D\
 1 quantity of product E
 
 Answer: $1,928.55
