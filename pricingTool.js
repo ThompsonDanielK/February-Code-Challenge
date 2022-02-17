@@ -1,7 +1,7 @@
-exports.productDictionary = { A:0, B:0, C:0, D:0, E:0};
 const discountArray = [0.75, 0.80, 0.90, 0.95];
 const pricePerItem = 299;
 
+exports.productDictionary = { A:0, B:0, C:0, D:0, E:0};
 
 exports.computeTotalPrice = (productsArray) => {
 
